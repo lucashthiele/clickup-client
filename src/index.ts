@@ -1,5 +1,7 @@
-import { goodbyeWorld } from "./main/goodbyeWorld.js";
+import { get } from "./services/teams/get.js";
 
-console.log(goodbyeWorld());
+const teams = {
+    get,
+};
 
-export { goodbyeWorld };
+export { teams };
