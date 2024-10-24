@@ -1,5 +1,4 @@
 import { getSpaces } from "../../../src/services/spaces/getSpaces.js";
-import { getTeams } from "../../../src/services/teams/getTeams.js";
 import { SpaceOptions, TeamProperties } from "../../../src/types/types.js";
 
 describe("Get Spaces", () => {
