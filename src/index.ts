@@ -1,7 +1,12 @@
-import { get } from "./services/teams/get.js";
+import { getSpaces } from "./services/spaces/getSpaces.js";
+import { getTeams } from "./services/teams/getTeams.js";
 
 const teams = {
-    get,
+    get: getTeams,
 };
 
-export { teams };
+const spaces = {
+    get: getSpaces,
+};
+
+export { teams, spaces };

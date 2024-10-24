@@ -41,7 +41,7 @@ type TeamOptions = {
 type SpaceProperties = {
     id: string;
     name: string;
-    teamId: string;
+    teamId?: string;
     statuses: SpaceTaskStatus[];
     isArchived: boolean;
 };
