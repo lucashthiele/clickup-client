@@ -64,6 +64,7 @@ type FolderProperties = {
     id: string;
     name: string;
     spaceId: string;
+    isHidden: boolean;
 };
 
 type FolderOptions = {
